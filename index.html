@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+
+<style>
+
+
+    html{
+        position: relative;
+        min-height: 100%;
+    }
+
+    html, body{
+        margin:0;
+        padding:0;
+
+    }
+    .mainform{
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .search-bar{
+        margin: 25px;
+        width: 400px;
+    }
+
+    .button{
+        margin: 5px;
+    }
+
+    .user-icon{
+        border-radius: 50%;
+    }
+
+
+    #offered-text{
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    ul{
+        position:absolute;
+        top:0;
+        right:0;
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li{
+        padding-right: 10px;
+        float:right;
+        font-size: 12px;
+    }
+
+    footer{
+        position: absolute;
+        padding: 0;
+        margin: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background:#F2F2F2;
+    }
+
+
+    .footer-bar{
+        height: 40px;
+        border: 1px solid #dadce0;
+    }
+
+    
+    .bottom-text{
+        margin:0;
+        font-weight: 200;
+        color:rgba(0,0,0,.54);
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+
+    .footer-text-aligned-left{
+        padding-left: 25px;
+        padding-top: 10px;
+        float: left;
+    }
+
+    .footer-text-aligned-right{
+        padding-right: 25px;
+        padding-top: 10px;
+        float: right;
+    }
+    
+</style>
+
+<html>
+    <body>
+
+        <nav>
+            <ul>
+                <li>Gmail</li>
+                <li>Images</li>  
+                <li><img class="user-icon" src="https://lh3.googleusercontent.com/ogw/ADGmqu9hG0Usa2MSm_DkYLxsWNiIB1leBDnzWbe5Yk9u8aw=s32-c-mo" alt="User icon"></li>
+
+            </ul>
+        </nav>
+
+        <main>
+            <form class="mainform">
+                <img clas="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google image"/> 
+                <input class="search-bar" name="searchbox" type="text">
+
+                <div class=buttons>
+                    <input class="search-button button" type="button" value="Google Search">
+                    <input class="lucky-button button" type="button" value="I'm feeling lucky!">
+                </div>
+                <p id=offered-text>
+                    Google offered in: <a href="">Romana</a> <a href="">magyar</a> <a href="">Deutsch</a>
+                </p>
+            </form>
+        </main>
+
+        <footer>
+                <div class="footer-bar">
+                    <p class="bottom-text footer-text-aligned-left">Romania</p>
+                </div>
+                <div class="footer-bar">
+                    <p class="bottom-text footer-text-aligned-left">Advertising</p>
+                    <p class="bottom-text footer-text-aligned-left">Business</p>
+                    <p class="bottom-text footer-text-aligned-left">About</p>
+                    <p class="bottom-text footer-text-aligned-left">How Search works</p>
+                    <p class="bottom-text footer-text-aligned-right">Privacy</p>
+                    <p class="bottom-text footer-text-aligned-right">Terms</p>
+                    <p class="bottom-text footer-text-aligned-right">Settings</p>
+                </div>
+        </footer>
+    </body>
+</html>
