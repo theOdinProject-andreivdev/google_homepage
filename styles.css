@@ -1,89 +1,123 @@
-html{
-    position: relative;
-    min-height: 100%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
-html, body{
-    margin:0;
-    padding:0;
 
-}
-.mainform{
-    margin-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.navbar{
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 
-.search-bar{
-    margin: 25px;
-    width: 400px;
+.nav-elements{
+    float:right;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+
+.nav-element{
+    font-size: small;
+    padding-right: 10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.connect-nav{
+    background-color: #4285f4;
+    font-weight: 700;
+    color: aliceblue;
+
+    border: #4285f4 solid 5px;
+    border-radius: 5%;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+
+main{
+    width: 100%;
+}
+
+.content{
+    padding-top: 20%;
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.search-box{
+    width: 450px;
+    margin-top: 20px;
+}
+
+.buttons{
+    margin-top: 35px;
 }
 
 .button{
     margin: 5px;
+    height: 35px;
 }
 
-.user-icon{
-    border-radius: 50%;
+.under-buttons{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: small;
 }
 
-
-#offered-text{
-    font-weight: 100;
-    font-size: 13px;
-}
-
-ul{
-    position:absolute;
-    top:0;
-    right:0;
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
-}
-
-li{
-    padding-right: 10px;
-    float:right;
-    font-size: 12px;
+.language-select{
+    color: #1a0dab;
+    text-decoration: none;
 }
 
 footer{
     position: absolute;
-    padding: 0;
-    margin: 0;
     bottom: 0;
-    left: 0;
     right: 0;
-    background:#F2F2F2;
+    width: 100%;
 }
 
 
-.footer-bar{
-    height: 40px;
-    border: 1px solid #dadce0;
+.footbar-row1
+{
+    position: absolute;
+    bottom: 38px;
+    width: 100%;
+    padding: 7px;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;
 }
 
+.footbar-row2
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 7px;
+    background-color: #f2f2f2;
+    border: 1px solid #e4e4e4;;
+}
 
-.bottom-text{
-    margin:0;
-    font-weight: 200;
-    color:rgba(0,0,0,.54);
-    font-size: 15px;
+.footbar-element{
     font-family: sans-serif;
+    font-size: 14px;
+    color:rgba(0,0,0,.54);
+    text-decoration: none;
 }
 
-.footer-text-aligned-left{
+.element-left{
+    float:left;
     padding-left: 25px;
-    padding-top: 10px;
-    float: left;
 }
 
-.footer-text-aligned-right{
+.element-right{
     padding-right: 25px;
-    padding-top: 10px;
-    float: right;
+}
+
+.right-elements{
+    float:right;
 }
